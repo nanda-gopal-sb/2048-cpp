@@ -198,23 +198,23 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    Matrix mat;
-    mat.welcomeMessage();
+    Matrix *mat = new Matrix;
+    mat->welcomeMessage();
     char ch = '0';
     int i = 9;
     while (1)
     {
-        mat.printArray();
+        mat->printArray();
         cout << "Enter the movement" << "\n";
         ch = getchar();
         if (ch == 'w')
-            mat.move(UP);
+            mat->move(UP);
         else if (ch == 'a')
-            mat.move(LEFT);
+            mat->move(LEFT);
         else if (ch == 's')
-            mat.move(DOWN);
+            mat->move(DOWN);
         else if (ch == 'd')
-            mat.move(RIGHT);
+            mat->move(RIGHT);
         system("clear");
     }
 }
