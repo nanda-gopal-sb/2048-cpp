@@ -5,7 +5,7 @@ using namespace std;
 random_device rd; // seeding the random number generator
 mt19937 gen(rd());
 
-enum dir
+enum dir // enum to select the direction
 {
     UP,
     DOWN,
@@ -173,7 +173,6 @@ public:
     }
     void printArray()
     {
-
         for (int i = 0; i < 4; i++)
         {
             for (int j = 0; j < 4; j++)
@@ -191,7 +190,7 @@ public:
     }
     ~Matrix()
     {
-        for (int i = 0; i < 4; i++) // To delete the inner                      // arrays
+        for (int i = 0; i < 4; i++)
             delete[] matrix[i];
         delete[] matrix;
     }
