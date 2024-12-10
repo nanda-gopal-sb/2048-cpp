@@ -1,13 +1,5 @@
 # 2048 Game in C++
 
-## Project Overview
-This repository contains the source code for a C++ implementation of the popular 2048 game. The project is currently a work in progress.
-
-## Features
-- Classic 2048 gameplay
-- Command-line interface
-- Efficient and optimized code
-
 ## Installation
 To compile and run the game, follow these steps:
 
@@ -27,10 +19,3 @@ To compile and run the game, follow these steps:
     ```sh
     ./2048
     ```
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License.
-
